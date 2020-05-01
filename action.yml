@@ -3,8 +3,8 @@ description: 'Upload a build artifact that can be used by subsequent workflow st
 author: 'GitHub'
 inputs: 
   name:
-    description: 'Artifact name'
-    required: false
+    description: 'User     name'
+    required: true
   path:
     description: 'A file, directory or wildcard pattern that describes what to upload'
     required: true
